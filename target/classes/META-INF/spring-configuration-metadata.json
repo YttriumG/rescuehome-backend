@@ -1,0 +1,40 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.rescue.modules.app.utils.JwtUtils",
+      "name": "rescuehome.jwt",
+      "type": "com.rescue.modules.app.utils.JwtUtils"
+    },
+    {
+      "sourceType": "com.rescue.datasources.DynamicDataSourceConfig",
+      "name": "spring.datasource.druid.first",
+      "sourceMethod": "firstDataSource()",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.rescue.datasources.DynamicDataSourceConfig",
+      "name": "spring.datasource.druid.second",
+      "sourceMethod": "secondDataSource()",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.rescue.modules.app.utils.JwtUtils",
+      "defaultValue": 0,
+      "name": "rescuehome.jwt.expire",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.rescue.modules.app.utils.JwtUtils",
+      "name": "rescuehome.jwt.header",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.rescue.modules.app.utils.JwtUtils",
+      "name": "rescuehome.jwt.secret",
+      "type": "java.lang.String"
+    }
+  ]
+}
